@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---poppins-fonts: 'Poppins', sans-serif;
+    ---primary-color: #278fd5;
+    ---text-color: #858585;
+    ---head-color: #000;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/* -----------body ---------------------- */
+
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../images/banner.jpg);
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    font-family: var(---poppins-fonts);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+
+.nav-left h1 {
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: .02rem;
+
+}
+
+.nav-left span {
+    color: rgb(223, 223, 223);
+    letter-spacing: .02rem;
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+
+.nav-right i {
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.nav-right span {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+}
+
+
+.head {
+    text-align: center;
+    color: white;
+    margin-top: 12rem;
+}
+
+.head h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: .02rem;
+    padding: 0 1rem;
+}
+
+.head p {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .02rem;
+    color: rgb(223, 223, 223);
+    letter-spacing: .02rem;
+    line-height: 2rem;
+    /* text-align: justify; */
+}
+
+.head button {
+    background-color: var(---primary-color);
+    font-family: var(---poppins-fonts);
+    padding: .6rem 1.2rem;
+    color: white;
+    margin-top: 2rem;
+    border: none;
+}
+
+/* ----------------------two section---------- */
+
+.two-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    font-family: var(---poppins-fonts);
+    flex-wrap: wrap;
+}
+
+.two-content-left {
+    width: 35%;
+}
+
+.two-content-left img {
+    width: 90%;
+    border-radius: 100%;
+}
+
+.two-content-right {
+    width: 60%;
+}
+
+.two-content-right h1 {
+    color: var(---primary-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: .04rem;
+}
+
+.two-content-right p {
+    font-size: 1.08rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    color: var(---text-color);
+    line-height: 2rem;
+    letter-spacing: .02rem;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+}
+
+.btn {
+    background-color: var(---primary-color);
+    border: none;
+    font-family: var(---poppins-fonts);
+    padding: .5rem .9rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* -----------------------two section  2----------------- */
+
+.wrapper {
+    background-color: var(---primary-color);
+    width: 100%;
+    padding: 5rem 0;
+    margin-top: 8rem;
+}
+
+.two-section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+    font-family: var(---poppins-fonts);
+    flex-wrap: wrap;
+}
+
+.two-content-left2 {
+    width: 35%;
+}
+
+.two-content-left2 img {
+    width: 90%;
+    border-radius: 100%;
+}
+
+.two-content-right2 {
+    width: 60%;
+}
+
+.two-content-right2 h1 {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: .04rem;
+}
+
+.two-content-right2 p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: .02rem;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    font-family: var(---poppins-fonts);
+    padding: .6rem 1rem;
+    color: var(---primary-color);
+}
+
+
+
+/* ------------last section--------------- */
+
+.last-head {
+    text-align: center;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
+    font-family: var(---poppins-fonts);
+}
+
+
+.last-head h1 {
+    font-size: 2rem;
+    color: rgb(36, 36, 36);
+    letter-spacing: .03rem;
+    font-weight: 700;
+    mask-border: 1rem;
+}
+
+.last-head p {
+    color: var(---text-color);
+    font-size: 1.05rem;
+    font-weight: 320;
+    letter-spacing: .02rem;
+    margin-bottom: 6rem;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(---poppins-fonts);
+    flex-wrap: wrap;
+}
+
+.last-content {
+    width: 28%;
+    text-align: center;
+}
+
+.last-content img {
+    width: 95%;
+    border-radius: 100%;
+    border: .3rem solid var(---primary-color);
+}
+
+.last-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    color: var(---text-color);
+    line-height: 2rem;
+    letter-spacing: .02rem;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+    margin: 2rem 0;
+}
+
+
+/* ---------------footer------------------- */
+
+.footer {
+    margin-top: 5rem;
+    padding-top: 6rem;
+    border-top: .105rem solid #cdcdcd;
+    text-align: center;
+    padding-bottom: 5rem;
+    font-family: var(---poppins-fonts);
+}
+
+.footer i {
+    margin: 0 1.2rem;
+    color: rgb(0, 0, 0);
+    border-radius: 100%;
+    padding: 1rem;
+    border: .105rem solid #cdcdcd;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.footer h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .02rem;
+    color: var(---text-color);
+    margin-top: 1.4rem;
+}
+
+.footer span {
+    position: relative;
+    top: .02rem;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------Adjust Qmedia writting----------------------- */
+@media only screen and (max-width:720px) {
+    html {
+        font-size: 9.3px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .two-section {
+        text-align: center;
+    }
+
+    .two-content-left {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .two-section2 {
+        text-align: center;
+    }
+
+    .two-content-left img {
+        width: 60%;
+        text-align: center;
+    }
+
+    .two-content-right {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .two-content-left2 {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .two-content-right2 {
+        width: 100%;
+        /* margin: 2rem 0; */
+    }
+
+    .two-content-left2 img {
+        width: 60%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .last-content {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .last-content img {
+        width: 80%;
+    }
+}
+
+
+
+@media only screen and (max-width:1075px) {
+    html {
+        font-size: 9.5px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
